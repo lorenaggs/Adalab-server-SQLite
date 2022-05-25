@@ -1,0 +1,134 @@
+.design {
+  width: $mobile-width;
+  border-bottom: 100%;
+  border-bottom: 1px solid $white-grey;
+
+  &__legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+
+    &__container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      &__icon {
+        color: $dull-orange;
+      }
+
+      &__text {
+        text-transform: uppercase;
+        width: 100%;
+        height: 24px;
+        font-family: $font-family;
+        font-size: 18px;
+        color: $gun-metal;
+      }
+    }
+  }
+
+  &__colors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  &__text {
+    text-transform: uppercase;
+    width: 62px;
+    height: 19px;
+    margin: 0px 82px 32px 0;
+    font-family: $font-family;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: $gun-metal;
+    padding-left: 20px;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+
+    &--2 {
+      padding: 20px 0px;
+    }
+
+    &--3 {
+      margin-bottom: 25px;
+    }
+
+    &--4 {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__rectangle {
+    width: 30px;
+    height: 25px;
+
+    &--1 {
+      background-color: $dark-green-blue;
+    }
+
+    &--2 {
+      background-color: $dirty-blue;
+    }
+
+    &--3 {
+      background-color: $hospital-green;
+    }
+
+    &--4 {
+      background-color: $dried-blood;
+    }
+
+    &--5 {
+      background-color: $rusty-red;
+    }
+
+    &--6 {
+      background-color: $tomato;
+    }
+
+    &--7 {
+      background-color: $slate;
+    }
+
+    &--8 {
+      background-color: $faded-orange;
+    }
+
+    &--9 {
+      background-color: $light-grey-blue;
+    }
+    &--10 {
+      background-color: $codequetecode-green;
+    }
+    &--11 {
+      background-color: $codequetecode-black;
+    }
+    &--12 {
+      background-color: $codequetecode-orange;
+    }
+  }
+
+  &__palette {
+    position: relative;
+    top: 50%;
+    transform: translateY(50%);
+    margin-right: 10px;
+  }
+}
+
+.collapsed {
+  display: none;
+}

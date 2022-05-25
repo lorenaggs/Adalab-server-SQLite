@@ -1,0 +1,144 @@
+.share {
+  width: $mobile-width;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  border-bottom: 1px solid $white-grey;
+
+  &__legend {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    cursor: pointer;
+
+    &__container {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      &__icon {
+        color: $dull-orange;
+      }
+
+      &__text {
+        text-transform: uppercase;
+        height: 24px;
+        font-family: $font-family;
+        font-size: 18px;
+        color: $gun-metal;
+      }
+    }
+  }
+
+  &__article {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__container {
+    width: $mobile-width;
+    position: relative;
+    top: 0px;
+    height: 80px;
+    display: flex;
+    justify-items: center;
+    align-items: flex-start;
+    border-bottom: 1px solid $white-grey;
+
+    &--button {
+      width: 199px;
+      height: 50px;
+      padding: 13px 13px 13px 12px;
+      border-radius: 12px;
+      box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.32);
+      background-color: $dull-orange;
+      color: $whitetwo;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      position: absolute;
+      left: 50%;
+      top: 10%;
+      transform: translateX(-50%);
+      gap: 9px;
+      cursor: pointer;
+      &__text {
+        font-size: 18px;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-transform: uppercase;
+      }
+
+      &__icon {
+        transform: scale(1.5);
+      }
+    }
+  }
+
+  &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__title {
+      width: 219px;
+      margin: 20px 14px 5px 10px;
+      font-family: $font-family;
+      text-align: center;
+      font-size: 18px;
+    }
+
+    &__link {
+      font-family: $font-family;
+      font-size: 12px;
+      margin: 5px 0 10px;
+      color: $dull-orange;
+      text-align: center;
+    }
+
+    &__twitter {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &--button {
+        color: $whitetwo;
+        background-color: $azure;
+        width: 181px;
+        height: 30px;
+        border-radius: 3px;
+        box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+        margin: 10px 33px 30px 29px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 9px;
+        cursor: pointer;
+        &--text {
+          width: 134px;
+          height: 20px;
+          font-family: $font-family;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+.collapsed,
+.hidden {
+  display: none;
+}
+
+.white {
+  background-color: $darkbrown;
+  opacity: 70%;
+}

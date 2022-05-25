@@ -1,0 +1,120 @@
+.fill {
+  font-family: $font-family;
+  color: $dark-green-blue;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: $mobile-width;
+  border-bottom: 100%;
+  border-bottom: 1px solid $white-grey;
+  &__legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    cursor: pointer;
+    &--title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      &--icon {
+        color: $dull-orange;
+      }
+      &--name {
+        font-family: $font-family;
+        color: $gun-metal;
+        text-transform: uppercase;
+        font-size: 18px;
+      }
+      &--arrow {
+        color: $gun-metal;
+      }
+    }
+  }
+}
+
+.field {
+  width: 100%;
+  gap: 20px;
+  &__warning {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  &__warning:last-child {
+    margin-bottom: 10px;
+  }
+  &__warning-star {
+    color: red;
+  }
+  &__item {
+    gap: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    &--placeholder {
+      height: 30px;
+      padding: 3px 7px;
+      border: solid 1px $hospital-green;
+      color: $black;
+      font-family: $font-family;
+      ::placeholder {
+        color: #c5c5c5;
+      }
+    }
+  }
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+.add_image {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 20px;
+  &__photo-preview {
+    height: 40px;
+    width: 40px;
+    border: solid 1px $hospital-green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+}
+
+.upload_button {
+  display: none;
+}
+
+.collapsed {
+  display: none;
+}
+
+.rotate {
+  transform: rotateX(180deg);
+}
+
+.action__upload-btn {
+  text-align: center;
+  padding: 10px;
+  width: 140px;
+  border: none;
+  border-radius: 3px;
+  background-color: $dull-orange;
+  font-family: $font-family;
+  color: $whitetwo;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.32);
+  cursor: pointer;
+}
+.action__hiddenField {
+  display: none;
+}
+
+.profile_label {
+  cursor: pointer;
+}

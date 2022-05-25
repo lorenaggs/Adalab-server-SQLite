@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "./static/css/main.8405bb50.css",
+    "main.js": "./static/js/main.5129daad.js",
+    "static/media/example1.jpg": "./static/media/example1.b6cf9bf5ddab94720a32.jpg",
+    "static/media/Codequetecode.png": "./static/media/Codequetecode.133a0c68f5df46adaabe.png",
+    "static/media/tarjetas-molonas.png": "./static/media/tarjetas-molonas.488717f38ae8c822e5fd.png",
+    "index.html": "./index.html",
+    "main.8405bb50.css.map": "./static/css/main.8405bb50.css.map",
+    "main.5129daad.js.map": "./static/js/main.5129daad.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8405bb50.css",
+    "static/js/main.5129daad.js"
+  ]
+}

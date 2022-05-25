@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&amp;family=Montserrat&amp;family=Open+Sans:wght@400;600&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      href="https://as2.ftcdn.net/v2/jpg/03/14/86/81/1000_F_314868179_4G18ugvyNuUZYNlpjXm0y5rngnLUAxN4.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <title>Awesome profile-cards</title>
+    <link rel="stylesheet" href="/main.css" />
+  </head>
+  <body>
+    <section class="profile">
+      <div class="rectangle js-preview palette-<%= palette %>">
+        <div class="rectangle__titles">
+          <h2 class="js-reset rectangle__titles-title js_name"> <%= name %> </h2>
+          <h3 class="js-reset rectangle__titles-subtitle js_job"> <%= job %> </h3>
+        </div>
+        <div
+          class="rectangle__preview js__profile-image"
+          style="background-image: url('<%= photo %>')"
+        ></div>
+        <ul class="rectangle__icons">
+          <li>
+            <a
+              target="_blank"
+              href="tel:<%= phone %>"
+              class="rectangle__icons-item js_phone"
+              ><i class="rectangle__icons-item-size fas fa-mobile-alt"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="mailto:<%= email%>"
+              class="rectangle__icons-item js_email"
+              ><i class="rectangle__icons-item-size far fa-envelope"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/<%= linkedin %>"
+              class="rectangle__icons-item js_linkedin"
+              ><i class="rectangle__icons-item-size fab fa-linkedin-in"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://github.com/<%= github %>"
+              class="rectangle__icons-item js_github"
+              ><i class="rectangle__icons-item-size fab fa-github-alt"></i
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
